@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>100 Miles | Home</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="Travel Blog"/>
+    <meta name="author" content="Rawan Refaat"/>
+    <link rel="stylesheet" href="newstyle.css" type="text/css" hreflang="en">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  </head>
+  <body>
+     <div id="part">
+      <header><!---This website is about travelling,getting out of your comfort zone,learning how to enjoy the world we are in and appreaciate the places and different cultures we are surroended by.--->
+      <nav>
+            <ul>
+              <li><a href="Page1.html"target="_parent" class="active" hreflang="en">HOME</a></li>
+              <li><a href="Posts.html" target="_parent" hreflang="en">POSTS</a></li>
+              <li><a href="#signup" target="_parent" hreflang="en">SIGN UP</a></li>
+            </ul>
+       </nav>
+        <p id="java"></p>
+      <h1>100 Miles</h1>
+          <h2>Your key guide to travelling the world</h2>
+      <div class="search-box">
+           <form>
+           <input class="searchtext" type="text" placeholder="Search by destination.." name="search" id="box"><button class="button" type="sumbit" onclick="myFunction()" style="border-style: none;"></button>
+           </form><br>
+          </div>   
+      <h3><br><br><br><br><br><br><br><br><q>Don't listen to what they say. Go see.</q><br><br></h3>
+      </header>
+      </div>   
+      <div id="part2" style="text-align: center;font-size: 30px;">
+          <p><br><br><br><br><br><br><q>Twenty years from now you will be more disappointed by the things<br>that you didn’t do than by the ones you did do. So throw off the bowlines.<br> Sail away from the safe harbor. Catch the trade winds in your sails. <span><strong><em><br>Explore. Dream. Discover</em></strong></span></q><br>― Mark Twain<br><br><br><br><br><br><br><br></p>
+          <br>      
+      </div>
+      <div id="part3"> <br>
+      <img src="map.jpg" alt="Map of the World" width="100%" height="80%" usemap="#world">
+          <map name="world">
+            <area shape="circle" coords="650,520,100" href="https://wikitravel.org/en/Africa" alt="Africa" target="_blank">
+            <area shape="circle" coords="800,340,120" href="https://wikitravel.org/en/Asia" alt="Asia" target="_blank">
+            <area shape="circle" coords="650,380,70" href="https://wikitravel.org/en/Europe" alt="Europe" target="_blank">
+            <area shape="circle" coords="400,580,100" href="https://wikitravel.org/en/South_America" alt="South America" target="_blank">
+            <area shape="circle" coords="330,320,120" href="https://wikitravel.org/en/North_America" alt="North America" target="_blank">
+          </map>
+      </div>
+    <div id="signup">
+      <form action="/action_page.php" method="get">
+          <fieldset>
+             <legend>Sign Up Here:</legend>
+          <h3>Once a week we send you tips we've learned on <sup>travelling, seeking discomfort and improving our lives</sup>.<br><br>
+              <br><br>Username:<br><input type="text" value="Enter Username" required>
+             <br><br><br>E-mail:<br><input type="email" value="Enter E-mail" required>
+              <br><br><br>Pick a Continent:<br>
+              <select>
+               <option value="africa">Africa</option>
+               <option value="asia">Asia</option>
+               <option value="europe">Europe</option>
+               <option value="south america">South America</option>
+               <option value="north america">North America</option>
+               <option value="australia">Australia</option>
+               </select>
+              <br><br><br>Rate Our Website:<br><input type="range"><br><br><br>
+              Leave a comment:<br><br> 
+              <textarea rows="10" cols="100" style="border-color: black;"></textarea><br><br><br>
+               <button class="button" type="submit" onclick="Function()" style="color: white; border-style:double; background: none;">Submit</button>
+          </h3></fieldset>
+     </form> 
+   </div>
+      <div id="footer">
+      <hr>
+     <footer class="site-footer">
+            <p class="copyright-text" style="text-align:center; color: black;">Copyright &copy; 2019 All Rights Reserved</p>
+  </footer>
+   </div>
+  </body>
+</html>

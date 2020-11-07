@@ -1,0 +1,62 @@
+nav {
+  font-family: cursive;
+  text-align:left;
+  width: 100%;}
+ul{
+    width: 50%;
+    padding: 0px;}
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    height: 20%;
+    padding: 20px;}
+a.active {
+   color: white;}
+#part{
+    background-image: url("intro.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: skyblue;
+    text-align: center;}
+h1 { 
+    color: white;
+    font-size: 70px;
+    font-family:cursive,sans-serif;}
+h3,h2{
+    font-family:cursive;
+    color: white;
+    font: 69px;}
+.search-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     margin-top: 50px;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-bottom: 30px;}
+.searchtext{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: seagreen;
+    font-size: 15px;
+    transition: 0.4s;
+    line-height: 15px;
+    width: 200px;
+    height: 15px;
+    font-family: sans-serif,serif;
+    font-weight:bold;
+}
+#part2{
+    background-image: url("blue.jpg");
+    background-repeat: repeat;}
+#signup {
+    background-image: url("blue.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}

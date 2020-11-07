@@ -1,0 +1,44 @@
+nav {
+  font-family: cursive;
+  text-align:left;
+  width: 100%;}
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family:cursive;
+    text-align: center;}
+h3,h4,h2 {
+    font-family:cursive;
+    color: black;
+    font: 50px;
+    text-align: center;
+}
+ul{
+    width: 50%;
+    padding: 0px;}
+ul li{
+    list-style-type:none;
+    display: inline-block;
+    height: 20%;
+    padding: 20px;}
+p{
+     text-align: center;
+    font-size: 25px;
+}
+a.active {
+   color: white;}
+body{
+    text-align: center;
+    background-image: url("gray.png");
+    background-size:100%;
+    background-repeat: repeat;}
+}
+#copyright{
+    font-size: 15px;
+}
+#pack{
+    background-image: url("intro.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: skyblue;
+    text-align: center;}
